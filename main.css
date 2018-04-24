@@ -1,0 +1,27 @@
+table {
+  border-collapse : collapse;
+}
+
+table td.panel, table td.answer_sheet, table td#selected_color {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  text-align: center;
+  background-color: #BBBBBB;
+}
+
+table td.panel.red, table td.answer_sheet.red, table td#selected_color.red {
+  background-color: #FF0000;
+}
+
+table td.panel.green, table td.answer_sheet.green, table td#selected_color.green {
+  background-color: #00FF00;
+}
+
+table td.panel.white, table td.answer_sheet.white, table td#selected_color.white {
+  background-color: #FFFFFF;
+}
+
+table td.panel.blue, table td.answer_sheet.blue, table td#selected_color.blue {
+  background-color: #0000FF;
+}
